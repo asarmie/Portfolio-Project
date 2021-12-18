@@ -15,7 +15,7 @@ h3 {
   text-align: center;
 }
 h1 {
-  font-size: 90px;
+  font-size: 60px;
   margin: 0;
 }
 h2 {
@@ -29,6 +29,8 @@ h3 {
 }
 
 .button-links {
+  display: block;
+  margin: auto;
   border: solid var(--accent-color) 2px;
   border-radius: 4px;
   background-color: var(--accent-color);
