@@ -1,1 +1,32 @@
-/*font-family: 'Poppins', sans-serif;
+/*font-family: 'Poppins', sans-serif;*/
+:root {
+  --main-font: "Poppins", sans-serif;
+}
+body {
+  background-color: #f8edeb;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--main-font);
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+h2 {
+  font-size: 35px;
+  margin: 0;
+  padding-top: 50px;
+}
+h3 {
+  font-size: 28px;
+}
+
+.btn-branding {
+  text-decoration: none;
+  border: solid #ffb5a7 2px;
+  border-radius: 4px;
+}
