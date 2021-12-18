@@ -1,9 +1,11 @@
 /*font-family: 'Poppins', sans-serif;*/
 :root {
   --main-font: "Poppins", sans-serif;
+  --accent-color: #ffb5a7;
+  --main-color: #f8edeb;
 }
 body {
-  background-color: #f8edeb;
+  background-color: var(--main-color);
 }
 h1,
 h2,
@@ -19,14 +21,23 @@ h1 {
 h2 {
   font-size: 35px;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 h3 {
   font-size: 28px;
+  padding-bottom: 20px;
 }
 
-.btn-branding {
-  text-decoration: none;
-  border: solid #ffb5a7 2px;
+.button-links {
+  border: solid var(--accent-color) 2px;
   border-radius: 4px;
+  background-color: var(--accent-color);
+}
+.link-branding {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.link-branding:hover {
+  color: black;
 }
