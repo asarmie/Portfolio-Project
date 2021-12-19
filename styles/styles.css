@@ -4,7 +4,7 @@
   --accent-color: #ffb5a7;
   --main-color: #f8edeb;
 }
-body {
+.homepage-body {
   background-color: var(--main-color);
 }
 h1,
@@ -27,6 +27,10 @@ h3 {
   font-size: 28px;
   padding-bottom: 20px;
 }
+h4 {
+  margin: 0;
+  font-size: 35px;
+}
 .all-buttons {
   display: block;
   margin: 0;
@@ -45,4 +49,11 @@ h3 {
 }
 .link-branding:hover {
   color: black;
+}
+.project-para {
+  line-height: 25px;
+}
+.project-pic {
+  border: solid 20px #fae1dd;
+  border-radius: 10px;
 }
