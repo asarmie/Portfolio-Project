@@ -35,6 +35,7 @@ h5 {
   font-size: 60px;
   font-weight: bold;
   font-family: var(--main-font);
+  text-align: center;
 }
 .all-buttons {
   display: block;
@@ -69,4 +70,13 @@ h5 {
 .about-pic {
   border: solid 20px #fae1dd;
   border-radius: 10px !important;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.email-link:hover {
+  text-decoration: underline 5px #9f7168;
+  color: black;
 }
