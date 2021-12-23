@@ -57,3 +57,7 @@ h4 {
   border: solid 20px #fae1dd;
   border-radius: 10px;
 }
+.about-pic {
+  border: solid 20px #fae1dd;
+  border-radius: 10px !important;
+}
