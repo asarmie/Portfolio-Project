@@ -80,3 +80,9 @@ h5 {
   text-decoration: underline 5px #9f7168;
   color: black;
 }
+.nav-link {
+  color: black !important;
+}
+.nav-link:hover {
+  color: var(--main-color) !important;
+}
