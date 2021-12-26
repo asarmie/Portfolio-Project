@@ -30,12 +30,18 @@ h3 {
 h4 {
   margin: 0;
   font-size: 35px;
+  font-family: var(--main-font);
 }
 h5 {
   font-size: 60px;
   font-weight: bold;
   font-family: var(--main-font);
   text-align: center;
+  font-family: var(--main-font);
+}
+h6 {
+  font-size: 26px;
+  font-family: var(--main-font);
 }
 .all-buttons {
   display: block;
@@ -75,10 +81,10 @@ h5 {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  font-weight: bold;
 }
 .email-link:hover {
-  text-decoration: underline 5px #9f7168;
-  color: black;
+  color: #6d4d47;
 }
 .nav-link {
   color: black !important;
@@ -86,10 +92,21 @@ h5 {
 .nav-link:hover {
   color: var(--main-color) !important;
 }
-.nav-list {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: flex-end !important;
-  align-content: flex-end !important;
-  flex-direction: column;
+footer {
+  margin: 100px 50px 60px 50px;
+  background-color: #fadfc9;
+  padding: 30px 0px 30px;
+  border-radius: 20px;
+}
+.social-links a {
+  color: #6d4d47;
+  padding: 18px;
+  margin: 0 20px;
+  border-radius: 50% 50%;
+  font-size: 22px;
+  background-color: var(--accent-color);
+}
+.social-links a:hover {
+  color: var(--accent-color);
+  background-color: #6d4d47;
 }
