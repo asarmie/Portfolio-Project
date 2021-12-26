@@ -89,6 +89,9 @@ h6 {
 .nav-link {
   color: black !important;
 }
+.active {
+  color: var(--main-color) !important;
+}
 .nav-link:hover {
   color: var(--main-color) !important;
 }
